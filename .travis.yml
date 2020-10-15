@@ -1,6 +1,9 @@
 # vim: ft=yaml sw=2 ts=2
 
 language: go
+arch:
+  - ppc64le
+  - amd64
 
 # enable database services
 services:
